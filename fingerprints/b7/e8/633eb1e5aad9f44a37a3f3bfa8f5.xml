@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 09:19:45.944 UTC</timestamp>
+  <md5sum>b7e8633eb1e5aad9f44a37a3f3bfa8f5</md5sum>
+  <fileName>org.glassfish.hk2.external:javax.inject-2.5.0-b32.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

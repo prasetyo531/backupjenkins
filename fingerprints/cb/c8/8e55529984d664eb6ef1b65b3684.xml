@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 09:19:46.191 UTC</timestamp>
+  <md5sum>cbc88e55529984d664eb6ef1b65b3684</md5sum>
+  <fileName>org.glassfish.jersey.core:jersey-client-2.25.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

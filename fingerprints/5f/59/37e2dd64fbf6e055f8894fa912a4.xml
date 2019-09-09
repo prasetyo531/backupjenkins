@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 09:19:45.986 UTC</timestamp>
+  <md5sum>5f5937e2dd64fbf6e055f8894fa912a4</md5sum>
+  <fileName>io.rest-assured:spring-commons-3.2.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

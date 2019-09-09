@@ -1,0 +1,11 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.slack.SlackNotifier_-DescriptorImpl plugin="slack@2.27">
+  <baseUrl></baseUrl>
+  <teamDomain>fdn-tech</teamDomain>
+  <tokenCredentialId>9bca00f6-3548-427e-90e0-4978f2459db9</tokenCredentialId>
+  <botUser>false</botUser>
+  <sendAsText>false</sendAsText>
+  <iconEmoji></iconEmoji>
+  <username>prasetyo</username>
+  <room>jenkins-api</room>
+</jenkins.plugins.slack.SlackNotifier_-DescriptorImpl>

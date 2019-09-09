@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 09:19:46.37 UTC</timestamp>
+  <md5sum>13560a58a79b46b82057686543e8d727</md5sum>
+  <fileName>net.sf.jopt-simple:jopt-simple-4.6.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,12 @@
+commit dd732d1b015d39cf594957d8e341067901bc83a0
+tree 9c5a330e2dac4779b01c0cbe627bfb3b9a7d8ec1
+parent 4608bc3edeb06f3fe42bc0b3aa2b94e2909d0193
+author FDN-Prasetyo <prasetyo531@gmail.com> 2019-08-22 13:18:05 +0700
+committer FDN-Prasetyo <prasetyo531@gmail.com> 2019-08-22 13:18:05 +0700
+
+    command jenkins
+
+
+
+:100644 100644 eb68b92ff188ae2b11baed5c48ef6949b68b8ece 111e7b11a8b62728499dbef04fcdbb371c967eaf M	Automation-Master/Jenkinsfile
+:100644 100644 63140814087eb0425e8f528ca53d3402490be8d9 1d427edecf6c2dbcc68e24f79809200d8638c246 M	Automation-Master/healthcheck.sh

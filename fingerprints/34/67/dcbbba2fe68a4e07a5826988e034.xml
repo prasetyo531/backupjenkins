@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 09:19:45.701 UTC</timestamp>
+  <md5sum>3467dcbbba2fe68a4e07a5826988e034</md5sum>
+  <fileName>dk.brics.automaton:automaton-1.11-8.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>2-351,353-381,383-409,411-436,439-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

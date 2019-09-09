@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 09:19:46.197 UTC</timestamp>
+  <md5sum>288e6537849f0c63e76409b515c4fbe4</md5sum>
+  <fileName>com.fasterxml.jackson.core:jackson-annotations-2.8.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>2-351,353-381,383-409,411-436,439-686</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>2-351,353-381,383-409,411-436,439-686</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-01 10:03:42.198 UTC</timestamp>
+  <md5sum>65831e4f46f29db904708e4b9cc72843</md5sum>
+  <fileName>com.fasterxml.jackson.core:jackson-core-2.9.8.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>687-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>687-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

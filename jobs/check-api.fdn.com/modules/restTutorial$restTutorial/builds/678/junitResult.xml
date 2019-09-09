@@ -1,0 +1,797 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.28">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/check-api.fdn.com/fdn.restassured.com/target/surefire-reports/TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>44.056</duration>
+      <time>44.056</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>2.342</duration>
+          <className>test.talk_roundup.get_beautyroundup</className>
+          <testName>getbeautyroundup</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.293</duration>
+          <className>test.tc_get.get_blogarticle</className>
+          <testName>getblogarticle</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.132</duration>
+          <className>test.tc_get.get_commentpost_web</className>
+          <testName>getcommentpost_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.12</duration>
+          <className>test.tc_get.get_commentreview_web</className>
+          <testName>getcommentpost_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.803</duration>
+          <className>test.tc_get.get_feed_apps</className>
+          <testName>getfeed_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.77</duration>
+          <className>test.tc_get.get_feed_web</className>
+          <testName>getfeed_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.099</duration>
+          <className>test.tc_get.get_feeddetail_web</className>
+          <testName>getfeeddetail_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.774</duration>
+          <className>test.tc_get.get_feedreport</className>
+          <testName>getfeed_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.13</duration>
+          <className>test.tc_get.get_follower_web</className>
+          <testName>getfollower_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.121</duration>
+          <className>test.tc_get.get_following_web</className>
+          <testName>getfollowing_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.12</duration>
+          <className>test.tc_get.get_newestreview</className>
+          <testName>getnewestreview_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_get.get_newestreview.getnewestreview_web(get_newestreview.java:37)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>1.099</duration>
+          <className>test.tc_get.get_notifcount</className>
+          <testName>getnotifpage_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_get.get_notifcount.getnotifpage_web(get_notifcount.java:36)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <stdout>Request method:	GET
+Request URI:	https://api.femaledaily.com/app/v1/user/notif/count
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=3
+				key=client03-TSbs94s3q5H9PP2yNPBr
+				Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoiMS41IiwiZGV2aWNlIjoiMyIsImtleSI6ImNsaWVudDAzLVRTYnM5NHMzcTVIOVBQMnlOUEJyIiwicG9zdCI6eyJ1c2VyX2lkIjo0OTA1NSwidXNlcm5hbWUiOiJwdXR3aWQiLCJmdWxsbmFtZSI6IlV0d2lkIiwiZW1haWwiOiJmYXpsdXIuZi5yYWhtYW5AZ21haWwuY29tIn0sImlhdCI6MTU2ODcyMjI0MzgzMH0.1ehlFtz4IhrSL06kShV6Ip09RqRg1UHBhc1OS8_gPVM
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+</stdout>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>6.407</duration>
+          <className>test.tc_get.get_notifpage</className>
+          <testName>getnotifpage_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.078</duration>
+          <className>test.tc_get.get_postdetail</className>
+          <testName>getnotifpage_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_get.get_postdetail.getnotifpage_web(get_postdetail.java:36)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>1.491</duration>
+          <className>test.tc_get.get_productdetail_web</className>
+          <testName>getproductdetail_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.759</duration>
+          <className>test.tc_get.get_productlist_web</className>
+          <testName>getproductlist_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.206</duration>
+          <className>test.tc_get.get_productmatches_apps</className>
+          <testName>getproductmatches_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.024</duration>
+          <className>test.tc_get.get_products_web</className>
+          <testName>getproducts_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_get.get_products_web.getproducts_web(get_products_web.java:35)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <stdout>Request method:	GET
+Request URI:	https://api.femaledaily.com/app/v1/products?cat_slugs=liquid
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=3
+				key=client03-TSbs94s3q5H9PP2yNPBr
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+</stdout>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>1.073</duration>
+          <className>test.tc_get.get_productsimilar</className>
+          <testName>getproductsimilar_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_get.get_productsimilar.getproductsimilar_apps(get_productsimilar.java:37)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>1.089</duration>
+          <className>test.tc_get.get_productssimilar_web</className>
+          <testName>getproductssimilar_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_get.get_productssimilar_web.getproductssimilar_web(get_productssimilar_web.java:35)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>1.079</duration>
+          <className>test.tc_get.get_reviewdetail_web</className>
+          <testName>getreviewdetail_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_get.get_reviewdetail_web.getreviewdetail_web(get_reviewdetail_web.java:36)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <stdout>Request method:	GET
+Request URI:	https://api.femaledaily.com/app/v1/review/detail/62/645493
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=3
+				key=client03-TSbs94s3q5H9PP2yNPBr
+				Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoiMS41IiwiZGV2aWNlIjoiMyIsImtleSI6ImNsaWVudDAzLVRTYnM5NHMzcTVIOVBQMnlOUEJyIiwicG9zdCI6eyJ1c2VyX2lkIjo0OTA1NSwidXNlcm5hbWUiOiJwdXR3aWQiLCJmdWxsbmFtZSI6IlV0d2lkIiwiZW1haWwiOiJmYXpsdXIuZi5yYWhtYW5AZ21haWwuY29tIn0sImlhdCI6MTU2ODcyMjI0MzgzMH0.1ehlFtz4IhrSL06kShV6Ip09RqRg1UHBhc1OS8_gPVM
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+</stdout>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.17</duration>
+          <className>test.tc_get.get_reviewlist_web</className>
+          <testName>getreview_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.396</duration>
+          <className>test.tc_get.get_suggestedEnthusiastUserid</className>
+          <testName>get_suggestedEnthusiastUserid</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.779</duration>
+          <className>test.tc_get.get_userbrand</className>
+          <testName>getuserbrand</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>test.tc_get.get_userfeed</className>
+          <testName>getuserfeed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.357</duration>
+          <className>test.tc_get.get_userpredifined</className>
+          <testName>getuserpredefined_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.066</duration>
+          <className>test.tc_get.get_productsearch_apps</className>
+          <testName>getproductsearch_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.151</duration>
+          <className>test.tc_get.get_productsearch_web</className>
+          <testName>getproductsearch_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.844</duration>
+          <className>test.tc_get.get_editorchoice_web</className>
+          <testName>geteditorchoice_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.109</duration>
+          <className>test.tc_get.get_userProfile_apps</className>
+          <testName>run_post_login</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.097</duration>
+          <className>test.tc_get.get_userProfile_apps</className>
+          <testName>getuserprofile_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_get.get_userProfile_apps.getuserprofile_apps(get_userProfile_apps.java:67)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <stdout>Request method:	GET
+Request URI:	https://api.femaledaily.com/app/v1/user/profile/364623
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=1
+				key=client01-pb3TVYisCGurD08ks3YW
+				Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoiMS41IiwiZGV2aWNlIjoiMyIsImtleSI6ImNsaWVudDAyLVd2Qk5NTnVWQm9lTEF2UmRja3NyIiwicG9zdCI6eyJ1c2VyX2lkIjo0OTA1NSwidXNlcm5hbWUiOiJwdXR3aWQiLCJmdWxsbmFtZSI6IlV0d2lkIiwiZW1haWwiOiJmYXpsdXIuZi5yYWhtYW5AZ21haWwuY29tIn0sImlhdCI6MTU2ODcyMjIyMjExMn0.A1fiOgpXf_JBXaBUXheIeMaweFBLE08AfzE4TzWGCHc
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+</stdout>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.139</duration>
+          <className>test.tc_post.post_addproduct</className>
+          <testName>run_add_product</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.117</duration>
+          <className>test.tc_post.post_addreview_web</className>
+          <testName>postaddreview_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [200] but found [400]
+	at test.tc_post.post_addreview_web.postaddreview_web(post_addreview_web.java:49)
+</errorStackTrace>
+          <errorDetails>expected [200] but found [400]</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.061</duration>
+          <className>test.tc_post.post_forgetpassword_apps</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.067</duration>
+          <className>test.tc_post.post_forgetpassword_web</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.09</duration>
+          <className>test.tc_post.post_likepost_web</className>
+          <testName>postlikepost_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [200] but found [400]
+	at test.tc_post.post_likepost_web.postlikepost_web(post_likepost_web.java:38)
+</errorStackTrace>
+          <errorDetails>expected [200] but found [400]</errorDetails>
+          <stdout>Request method:	POST
+Request URI:	https://api.femaledaily.com/app/v1/user/like/post/0
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=3
+				key=client03-TSbs94s3q5H9PP2yNPBr
+				Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoiMS41IiwiZGV2aWNlIjoiMyIsImtleSI6ImNsaWVudDAzLVRTYnM5NHMzcTVIOVBQMnlOUEJyIiwicG9zdCI6eyJ1c2VyX2lkIjo0OTA1NSwidXNlcm5hbWUiOiJwdXR3aWQiLCJmdWxsbmFtZSI6IlV0d2lkIiwiZW1haWwiOiJmYXpsdXIuZi5yYWhtYW5AZ21haWwuY29tIn0sImlhdCI6MTU2ODcyMjI0MzgzMH0.1ehlFtz4IhrSL06kShV6Ip09RqRg1UHBhc1OS8_gPVM
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;is_liked&quot;: &quot;true&quot;
+}
+</stdout>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.088</duration>
+          <className>test.tc_post.post_likereview_apps</className>
+          <testName>postlikereview_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.099</duration>
+          <className>test.tc_post.post_likereview_web</className>
+          <testName>postlikereview_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [200] but found [400]
+	at test.tc_post.post_likereview_web.postlikereview_apps(post_likereview_web.java:38)
+</errorStackTrace>
+          <errorDetails>expected [200] but found [400]</errorDetails>
+          <stdout>Request method:	POST
+Request URI:	https://api.femaledaily.com/app/v1/user/like/review/2991
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=3
+				key=client03-TSbs94s3q5H9PP2yNPBr
+				Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoiMS41IiwiZGV2aWNlIjoiMyIsImtleSI6ImNsaWVudDAzLVRTYnM5NHMzcTVIOVBQMnlOUEJyIiwicG9zdCI6eyJ1c2VyX2lkIjo0OTA1NSwidXNlcm5hbWUiOiJwdXR3aWQiLCJmdWxsbmFtZSI6IlV0d2lkIiwiZW1haWwiOiJmYXpsdXIuZi5yYWhtYW5AZ21haWwuY29tIn0sImlhdCI6MTU2ODcyMjI0MzgzMH0.1ehlFtz4IhrSL06kShV6Ip09RqRg1UHBhc1OS8_gPVM
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;is_liked&quot;: &quot;true&quot;
+}
+</stdout>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.091</duration>
+          <className>test.tc_post.post_login_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.089</duration>
+          <className>test.tc_post.post_login_web</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.084</duration>
+          <className>test.tc_post.post_usercommentpost_web</className>
+          <testName>postusercommentpost_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.818</duration>
+          <className>test.tc_post.post_userpost_apps</className>
+          <testName>postuserpost_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;502&gt;.
+
+	at test.tc_post.post_userpost_apps.postuserpost_apps(post_userpost_apps.java:39)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;502&gt;.
+</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.092</duration>
+          <className>test.tc_post.post_userposttagging_apps</className>
+          <testName>postuserposttagging_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.181</duration>
+          <className>test.tc_post.post_discover_apps</className>
+          <testName>postdiscover_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [200] but found [400]
+	at test.tc_post.post_discover_apps.postdiscover_apps(post_discover_apps.java:41)
+</errorStackTrace>
+          <errorDetails>expected [200] but found [400]</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.075</duration>
+          <className>test.tc_post.post_followsuggested_web</className>
+          <testName>run_post_login</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.096</duration>
+          <className>test.tc_post.post_followuser_apps</className>
+          <testName>postfollowuser_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.074</duration>
+          <className>test.tc_post.post_followuser_web</className>
+          <testName>postfollowuser_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.073</duration>
+          <className>test.tc_post.post_followusers_apps</className>
+          <testName>postfollowusers_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [200] but found [400]
+	at test.tc_post.post_followusers_apps.postfollowusers_apps(post_followusers_apps.java:37)
+</errorStackTrace>
+          <errorDetails>expected [200] but found [400]</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.084</duration>
+          <className>test.tc_post.post_likepost_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.068</duration>
+          <className>test.tc_post.post_register_apps</className>
+          <testName>run_post_register</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.066</duration>
+          <className>test.tc_post.post_register_web</className>
+          <testName>run_post_register</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.084</duration>
+          <className>test.tc_post.post_usercommentreview_web</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.085</duration>
+          <className>test.tc_post.post_followsuggested_web</className>
+          <testName>postfollowsuggested_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [200] but found [400]
+	at test.tc_post.post_followsuggested_web.postfollowsuggested_web(post_followsuggested_web.java:67)
+</errorStackTrace>
+          <errorDetails>expected [200] but found [400]</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.096</duration>
+          <className>test.tc_post.post_likepost_apps</className>
+          <testName>postlikepost_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.131</duration>
+          <className>test.tc_post.post_register_apps</className>
+          <testName>getuserprofile_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.074</duration>
+          <className>test.tc_post.post_register_web</className>
+          <testName>getuserprofile_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_post.post_register_web.getuserprofile_web(post_register_web.java:129)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <stdout>Request method:	GET
+Request URI:	https://api.femaledaily.com/app/v1/user/profile/putwid
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=3
+				key=client03-TSbs94s3q5H9PP2yNPBr
+				Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoiMS41IiwiZGV2aWNlIjoiMyIsImtleSI6ImNsaWVudDAzLVRTYnM5NHMzcTVIOVBQMnlOUEJyIiwicG9zdCI6eyJ1c2VyX2lkIjo0OTA1NSwidXNlcm5hbWUiOiJwdXR3aWQiLCJmdWxsbmFtZSI6IlV0d2lkIiwiZW1haWwiOiJmYXpsdXIuZi5yYWhtYW5AZ21haWwuY29tIn0sImlhdCI6MTU2ODcyMjI0MzgzMH0.1ehlFtz4IhrSL06kShV6Ip09RqRg1UHBhc1OS8_gPVM
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+</stdout>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.07</duration>
+          <className>test.tc_post.post_usercommentreview_web</className>
+          <testName>postusercommentreview_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.071</duration>
+          <className>test.tc_put.put_profileinfo_web</className>
+          <testName>putprofileinfo_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_put.put_profileinfo_web.putprofileinfo_web(put_profileinfo_web.java:37)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>1.08</duration>
+          <className>test.tc_put.put_profileinfo_apps</className>
+          <testName>putprofileinfo_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+
+	at test.tc_put.put_profileinfo_apps.putprofileinfo_apps(put_profileinfo_apps.java:35)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</errorDetails>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.077</duration>
+          <className>test.tc_put.put_profilecomplete_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.071</duration>
+          <className>test.tc_put.put_profilecomplete_web</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.098</duration>
+          <className>test.tc_put.put_userpost_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.075</duration>
+          <className>test.tc_put.put_userreview_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.079</duration>
+          <className>test.tc_put.put_userreview_web</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.382</duration>
+          <className>test.tc_put.put_profilecomplete_apps</className>
+          <testName>putprofilecomplete_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.189</duration>
+          <className>test.tc_put.put_profilecomplete_web</className>
+          <testName>putprofilecomplete_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.07</duration>
+          <className>test.tc_put.put_userpost_apps</className>
+          <testName>putuserpost_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [200] but found [400]
+	at test.tc_put.put_userpost_apps.putuserpost_apps(put_userpost_apps.java:74)
+</errorStackTrace>
+          <errorDetails>expected [200] but found [400]</errorDetails>
+          <stdout>Request method:	PUT
+Request URI:	https://api.femaledaily.com/app/v1/user/post/0
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=1
+				key=client01-pb3TVYisCGurD08ks3YW
+				Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoiMS41IiwiZGV2aWNlIjoiMyIsImtleSI6ImNsaWVudDAyLVd2Qk5NTnVWQm9lTEF2UmRja3NyIiwicG9zdCI6eyJ1c2VyX2lkIjo0OTA1NSwidXNlcm5hbWUiOiJwdXR3aWQiLCJmdWxsbmFtZSI6IlV0d2lkIiwiZW1haWwiOiJmYXpsdXIuZi5yYWhtYW5AZ21haWwuY29tIn0sImlhdCI6MTU2ODcyMjIyMjExMn0.A1fiOgpXf_JBXaBUXheIeMaweFBLE08AfzE4TzWGCHc
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;caption&quot;: &quot;Dapet gratisan, lumayan lah yaaa&quot;,
+    &quot;product_ids&quot;: &quot;0&quot;,
+    &quot;id&quot;: &quot;0&quot;,
+    &quot;product_id&quot;: &quot;248&quot;,
+    &quot;text&quot;: &quot;boleh add review lagi prod 248 si 234 Classpass, the beloved fitness app for booking workout classes across studios and gyms through one monthly subscription, is planning to do more than just get you fit. It wants to help expand your schedule to “all types of experiences, including music, massage, and nearby concerts you haven’t heard about yet. Payal Kadakia, Classpass founder &amp; CEO, shared the news at this year’s Startup Grind Conference in a conversation with Trinity Ventures’ Anjula Acharia-Bath to chat about the company’s story from their early beginnings to its visionary future.Kadakia created two&quot;,
+    &quot;rating&quot;: &quot;4.5&quot;,
+    &quot;package_quality&quot;: &quot;4.6&quot;,
+    &quot;repurchase&quot;: &quot;y&quot;,
+    &quot;think_price&quot;: &quot;e&quot;
+}
+</stdout>
+          <failedSince>678</failedSince>
+        </case>
+        <case>
+          <duration>0.154</duration>
+          <className>test.tc_put.put_userreview_apps</className>
+          <testName>putuserreview_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.159</duration>
+          <className>test.tc_put.put_userreview_web</className>
+          <testName>putuserreview_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.091</duration>
+          <className>test.tc_talk_get.get_popularGroup</className>
+          <testName>getpopularGroup</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.128</duration>
+          <className>test.tc_talk_get.get_recenttalk</className>
+          <testName>getrecentalk_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>44.056</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

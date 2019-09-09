@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>nodeSatu</name>
+  <description></description>
+  <remoteFS>/Users/fdn-prasetyo/Documents/Jenkins</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.slaves.CommandLauncher" plugin="command-launcher@1.3">
+    <agentCommand>rO0ABXNyABpodWRzb24ucmVtb3RpbmcuQ2FwYWJpbGl0eQAAAAAAAAABAgABSgAEbWFza3hwAAAAAAAAAf4=</agentCommand>
+  </launcher>
+  <label>node1</label>
+  <nodeProperties/>
+</slave>

@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.28">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/check-api.fdn.com/fdn.restassured.com/target/surefire-reports/TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>2.659</duration>
+      <time>2.659</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>2.26</duration>
+          <className>test.tc_post.post_login_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>2.659</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

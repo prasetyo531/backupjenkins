@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-16 13:46:22.551 UTC</timestamp>
+  <original>
+    <name>check-api.fdn.com/restTutorial:restTutorial</name>
+    <number>508</number>
+  </original>
+  <md5sum>b17c6ced3bd42d9652ceed0a3c5d4d28</md5sum>
+  <fileName>restTutorial:restTutorial:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>508-686</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>508-686</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

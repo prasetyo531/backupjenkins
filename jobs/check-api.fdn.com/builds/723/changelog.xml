@@ -1,0 +1,24 @@
+commit 0ff10cb2756d73e6be5edee50734c87ec819d82f
+tree 6d12c95421382516775533af1cdfb47ffa59d7b3
+parent 393c91b75f9116f0e62fdc3df4636a5732738806
+author master <prasetyo@femaledaily.com> 2019-09-04 21:09:26 +0700
+committer master <prasetyo@femaledaily.com> 2019-09-04 21:09:26 +0700
+
+    no message
+
+
+
+:100644 100644 d84e841eab3024eac221fff633ae13a51b75c1a1 a2d0da3ff6a33e10d6f6e18322d62dde7e88d8c7 M	fdn.restassured.com/.idea/workspace.xml
+:100644 100644 c1049bd48b97178b8b39971dfd8ad2ab851e11d2 1c64aa90098008f0f2eb8f82e16eccb69e41b1e6 M	fdn.restassured.com/fdn.restassured.com.iml
+:100644 100644 2e4dbf54ef8d04b83d304c517f470a7381c94b52 7284ebdbbec6a396f293ef53fa403d51e80d5577 M	fdn.restassured.com/pom.xml
+:100644 100644 fb169f08a2db3a59e00540f77db3f8684e5304b3 a2396c38a7d974094cd0816fb8ceea680bf7b5a3 R098	fdn.restassured.com/src_test/test/DatadbToJson/javaToJson.java	fdn.restassured.com/src_test/test/DatadbToJson/javaObjectToJson.java
+:100644 100644 d9e97f6993f0c04c81b23b302757250ba7518abb 59e7c331f58998d0fbccb4c217aca0c305632f56 R077	fdn.restassured.com/src_test/test/DatadbToJson/javaToXml.java	fdn.restassured.com/src_test/test/DatadbToJson/javaObjectToXml.java
+:000000 100644 0000000000000000000000000000000000000000 6320f8ef54f5118d89bf24992d57e65f55a8c24e A	fdn.restassured.com/src_test/test/DatadbToJson/jsonToJavaObject.java
+:100644 100644 7339d139eae4d9c42a59f7c5dea1f24de8ea5ceb d794cc54a4a4bf816a484135a49fb6e46ce7baef M	fdn.restassured.com/src_test/test/DatadbToJson/oneSingleJson.java
+:000000 100644 0000000000000000000000000000000000000000 362c0fe69cdafe6c7fa620ebafc19c6b912cb45d A	fdn.restassured.com/src_test/test/oneFile.json
+:000000 100644 0000000000000000000000000000000000000000 14d1f4385bd5ae9b160fd3243c04d1360b4e0284 A	fdn.restassured.com/target/test-classes/test/DatadbToJson/javaObjectToJson.class
+:000000 100644 0000000000000000000000000000000000000000 ad5b6e9e3601381d38b26946277a6abfa23b29f9 A	fdn.restassured.com/target/test-classes/test/DatadbToJson/javaObjectToXml.class
+:100644 000000 6a937a8628f3c9e601f4bc97f7bda2f002102bdd 0000000000000000000000000000000000000000 D	fdn.restassured.com/target/test-classes/test/DatadbToJson/javaToJson.class
+:100644 000000 7389bbc906f90edacc32cbf8cecd606448f3e0c6 0000000000000000000000000000000000000000 D	fdn.restassured.com/target/test-classes/test/DatadbToJson/javaToXml.class
+:000000 100644 0000000000000000000000000000000000000000 1decc00235ad064e03b1004ac46b98c6d8470bab A	fdn.restassured.com/target/test-classes/test/DatadbToJson/jsonToJavaObject.class
+:100644 100644 8759093ec34c2150e55c0e1623ce99235033afec b02158331f287be3d917b189283a4bb1c4c1d57d M	fdn.restassured.com/target/test-classes/test/DatadbToJson/oneSingleJson.class

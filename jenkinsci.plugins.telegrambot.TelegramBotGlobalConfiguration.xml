@@ -1,0 +1,86 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkinsci.plugins.telegrambot.TelegramBotGlobalConfiguration plugin="telegram-notifications@1.3.0">
+  <botStrings class="java.util.Collections$UnmodifiableMap">
+    <m>
+      <entry>
+        <string>command.start</string>
+        <string>Start bot</string>
+      </entry>
+      <entry>
+        <string>command.status</string>
+        <string>Check your subscribe status</string>
+      </entry>
+      <entry>
+        <string>message.status.approved</string>
+        <string>You&apos;ve subscribed and approved for Jenkins messages.</string>
+      </entry>
+      <entry>
+        <string>command.help</string>
+        <string>Get help message</string>
+      </entry>
+      <entry>
+        <string>command.sub</string>
+        <string>Subscribe for Jenkins messages</string>
+      </entry>
+      <entry>
+        <string>message.noncommand</string>
+        <string>Please use /help to get the list of possible commands.</string>
+      </entry>
+      <entry>
+        <string>message.unapproved</string>
+        <string>You&apos;ve been unapproved by Jenkins admin.</string>
+      </entry>
+      <entry>
+        <string>message.unsub.success</string>
+        <string>You&apos;ve successfully unsubscribed.</string>
+      </entry>
+      <entry>
+        <string>message.unsub.alreadyunsub</string>
+        <string>You&apos;ve already unsubscribed.</string>
+      </entry>
+      <entry>
+        <string>message.status.unsubscribed</string>
+        <string>You&apos;ve not subscribed for Jenkins messages.</string>
+      </entry>
+      <entry>
+        <string>message.approved</string>
+        <string>You&apos;ve been approved by Jenkins admin.</string>
+      </entry>
+      <entry>
+        <string>message.help</string>
+        <string>You&apos;re using Jenkins Bot. It can sent to you some Jenkins messages.
+
+You can control this bot by sending these commands:
+/help - display this message
+/sub - subscribe for Jenkins messages
+/unsub - unsubscribe from Jenkins messages
+/status - get your status</string>
+      </entry>
+      <entry>
+        <string>message.sub.alreadysub</string>
+        <string>You&apos;ve already subscribed.</string>
+      </entry>
+      <entry>
+        <string>message.sub.success</string>
+        <string>You&apos;ve successfully subscribed. Please, wait for approval from the Jenkins admin.</string>
+      </entry>
+      <entry>
+        <string>message.error</string>
+        <string>Some error happened :(</string>
+      </entry>
+      <entry>
+        <string>message.status.unapproved</string>
+        <string>You&apos;ve subscribed but not approved for Jenkins messages.</string>
+      </entry>
+      <entry>
+        <string>command.unsub</string>
+        <string>Unsubscribe from Jenkins messages</string>
+      </entry>
+    </m>
+  </botStrings>
+  <shouldLogToConsole>true</shouldLogToConsole>
+  <botToken>750544351:AAGBtHf-KyjlaKGC4_jbPNX_-a1OV31ylZ0</botToken>
+  <botName>@vipereyes_bot</botName>
+  <approvalType>ALL</approvalType>
+  <users/>
+</jenkinsci.plugins.telegrambot.TelegramBotGlobalConfiguration>

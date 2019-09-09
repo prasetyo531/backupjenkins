@@ -1,0 +1,93 @@
+commit 242c5f2884550a01f331b999b484a899979150c7
+tree e3960677f9fdc657959d29c1e3a661a6fdb5a3df
+parent 0d61c9901d97d064aa7c372e7755854680dc62b2
+author prasetyoputra <myjne001@gmail.com> 2019-07-15 11:10:19 +0700
+committer prasetyoputra <myjne001@gmail.com> 2019-07-15 11:10:19 +0700
+
+    remove before method
+
+
+
+:100644 100644 f49e494f8846b4365271a5427ddfac004261a60d d2ef1e999900d783d669978073eb9161d7c0ff5a M	fdn.restassured.com/src_test/test/tc_post/post_login_apps.java
+:100644 100644 32f14ab00d03456aa593898811fdcdbbd8f11db6 a96920ce3fde36c358e350aaff1ad84426f33338 M	fdn.restassured.com/target/surefire-reports/Suite/Test_post.html
+:100644 100644 3257d186e1a1c68003aa95e913d86ca1f796f2c3 2db9802ced24ac6c04420a56da88327bfc562a11 M	fdn.restassured.com/target/surefire-reports/Suite/Test_post.xml
+:100644 100644 5d9c28370a8476ada220a3add8845d04a6380e4a 1edfdcaaf091ee351b75940393d5c014676ab389 M	fdn.restassured.com/target/surefire-reports/TEST-TestSuite.xml
+:100644 100644 921afe42ce20361b5534ced473a1e7c605482cf2 dd507de7e270489be27e52509b45a1f7559d5108 M	fdn.restassured.com/target/surefire-reports/TestSuite.txt
+:100644 100644 a798d5dc9f2bb0750be07b8a123cc89c7fa70ff8 61066722f54e213f1377e6ada4872f70b3edaff0 M	fdn.restassured.com/target/surefire-reports/emailable-report.html
+:100644 100644 e6e1f3e7621a0ed28551f6998a487dd46e90d111 0e0227f6a404a82e57d0e309c2fb98a8a4743517 M	fdn.restassured.com/target/surefire-reports/index.html
+:100644 100644 9045f790cd614f59eb7f701db8337b4d21804055 280a964b283054579cb82b4d530e831f688295d9 M	fdn.restassured.com/target/surefire-reports/junitreports/TEST-test.tc_post.post_login_apps.xml
+:100644 100644 784c3d854037f0350c74c6b2729d9301504e0d1e d4a3b7e90f9ed327df151f2a64d088acb843a5e8 M	fdn.restassured.com/target/surefire-reports/old/Suite/classes.html
+:100644 100644 a8c006dff4f272d03c51ea948e3bb7cc504f0d6e d7732ac1f6194a7b5bb266bc64fd992faf938685 M	fdn.restassured.com/target/surefire-reports/old/Suite/methods-alphabetical.html
+:100644 100644 a8c006dff4f272d03c51ea948e3bb7cc504f0d6e d7732ac1f6194a7b5bb266bc64fd992faf938685 M	fdn.restassured.com/target/surefire-reports/old/Suite/methods.html
+:100644 100644 7b367fd3555e794fbc8af255ac1c458330db294b 021a37209a01c63080a0ea1bffdecb15ffca5988 M	fdn.restassured.com/target/surefire-reports/testng-results.xml
+:100644 100644 3e9347c56db73c99d6752b0f5167b3e66ef2b65a cf5680227e750a11af9e986e6f1905f597a56a2f M	fdn.restassured.com/target/test-classes/test/tc_post/post_login_apps.class
+commit 0d61c9901d97d064aa7c372e7755854680dc62b2
+tree c48967cd5fc34b5edd9224c785f2abe1794f1fbb
+parent e45b175cd97893f88ea309ceb89b1fc80bdced55
+author prasetyoputra <myjne001@gmail.com> 2019-07-12 20:43:16 +0700
+committer prasetyoputra <myjne001@gmail.com> 2019-07-12 20:43:16 +0700
+
+    response
+
+
+
+:100644 100644 bb8003d9169cd1f1eea55e2230cb67d968f207ad f49e494f8846b4365271a5427ddfac004261a60d M	fdn.restassured.com/src_test/test/tc_post/post_login_apps.java
+:100644 100644 95a8a92e0dde17e27936a7de2813e7d38fed92c1 32f14ab00d03456aa593898811fdcdbbd8f11db6 M	fdn.restassured.com/target/surefire-reports/Suite/Test_post.html
+:100644 100644 854ef53942d2a6d04a6ed9d17531e30715fe1c4b 3257d186e1a1c68003aa95e913d86ca1f796f2c3 M	fdn.restassured.com/target/surefire-reports/Suite/Test_post.xml
+:100644 100644 a35d0185a46426f7af0d6f4bad9365f8abd8cdb2 252826585a3d72a2aacc5f2cd886c61df108cc41 M	fdn.restassured.com/target/surefire-reports/Suite/testng-failed.xml
+:100644 100644 b7248c0ef120fd5263d786da09324cafa1c4a0b1 5d9c28370a8476ada220a3add8845d04a6380e4a M	fdn.restassured.com/target/surefire-reports/TEST-TestSuite.xml
+:100644 100644 cf1d3b8c0758f280f6498fc60a37ca7977091ee1 921afe42ce20361b5534ced473a1e7c605482cf2 M	fdn.restassured.com/target/surefire-reports/TestSuite.txt
+:100644 100644 50f1a04229cb2c45c3ddb31fa9de62c12aee8c85 a798d5dc9f2bb0750be07b8a123cc89c7fa70ff8 M	fdn.restassured.com/target/surefire-reports/emailable-report.html
+:100644 100644 2298548923d93da023caa32f7511b2f94e01405c e6e1f3e7621a0ed28551f6998a487dd46e90d111 M	fdn.restassured.com/target/surefire-reports/index.html
+:100644 100644 8e37b1a9c052b4d8acb9c0a8565e020b7ac3c7cf 9045f790cd614f59eb7f701db8337b4d21804055 M	fdn.restassured.com/target/surefire-reports/junitreports/TEST-test.tc_post.post_login_apps.xml
+:100644 100644 6001c8467646f59acbfdd4fbf5c5409c65623f7f a8c006dff4f272d03c51ea948e3bb7cc504f0d6e M	fdn.restassured.com/target/surefire-reports/old/Suite/methods-alphabetical.html
+:100644 100644 6001c8467646f59acbfdd4fbf5c5409c65623f7f a8c006dff4f272d03c51ea948e3bb7cc504f0d6e M	fdn.restassured.com/target/surefire-reports/old/Suite/methods.html
+:100644 100644 a35d0185a46426f7af0d6f4bad9365f8abd8cdb2 252826585a3d72a2aacc5f2cd886c61df108cc41 M	fdn.restassured.com/target/surefire-reports/testng-failed.xml
+:100644 100644 97113e0f2f078a573e8a3ab89c2a81b7876828a2 7b367fd3555e794fbc8af255ac1c458330db294b M	fdn.restassured.com/target/surefire-reports/testng-results.xml
+:100644 100644 cc0686d2256949836cd640b0eb78dc5d9c65a016 3e9347c56db73c99d6752b0f5167b3e66ef2b65a M	fdn.restassured.com/target/test-classes/test/tc_post/post_login_apps.class
+commit e45b175cd97893f88ea309ceb89b1fc80bdced55
+tree f5748c33fc2ea6114841377cb486734b4fa58e9b
+parent 99a2f7ef6dfbca9ff930a8d2f3c2c3d49615d0de
+author prasetyoputra <myjne001@gmail.com> 2019-07-12 19:15:02 +0700
+committer prasetyoputra <myjne001@gmail.com> 2019-07-12 19:15:02 +0700
+
+    adding print response
+
+
+
+:100644 100644 adc5ce5d8e5db83e3240067d684c6e59c3591b4c 158afcfab45ff98f1f3b0a0ad01f82ab8e6ddecd M	fdn.restassured.com/pom.xml
+:100644 000000 c4d65344066ef6b619e9e7453df18227e27b2b9d 0000000000000000000000000000000000000000 D	fdn.restassured.com/src_controller/base/basedua.java
+:100644 000000 140ec48113a37cff43b6be74147861c574956021 0000000000000000000000000000000000000000 D	fdn.restassured.com/src_test/listener/ExtentReporterNG.java
+:100644 000000 303e7afea15b03ac6a87607094933b8e7cc9bff2 0000000000000000000000000000000000000000 D	fdn.restassured.com/src_test/listener/listeners.java
+:100644 100644 b76ae871562f796d3a89b350ef566d1bbaf1cc2c a71b9bb041f17ed818db4eade9a392a24996d0ae M	fdn.restassured.com/src_test/test/tc_get/get_feedreport.java
+:100644 100644 68db23f8a1f00e11a2be724cc8047068b43a89f6 bb8003d9169cd1f1eea55e2230cb67d968f207ad M	fdn.restassured.com/src_test/test/tc_post/post_login_apps.java
+:100644 000000 a274a18558b49369697d8bd312fe55109c321930 0000000000000000000000000000000000000000 D	fdn.restassured.com/target/classes/base/basedua.class
+:100644 100644 d044c4efbd02096efa8e22aabd0dda943a0c50f6 106ba651b08cd566cfca1a3fd179875ed9c9279b M	fdn.restassured.com/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+:100644 100644 0d6eab9c9f1d154f3fb6d50ff6e3934df60a092b e0d6a15e192e1e131a5fbe266c91f69d3e69b896 M	fdn.restassured.com/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+:100644 100644 3986acc194efeb1b2caebd62af88ddc50feaa603 b26d83fe7bc402f1f9fd705b5afd81d575a369f1 M	fdn.restassured.com/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+:100644 100644 debe8c51b0aea656619ae0347b30d9ea71b4e9f8 534536e3dc11ac71f164879b935ee251d051bb03 M	fdn.restassured.com/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+:100644 100644 721440157470e6ed6ec14e9b7c3727c55dc22e26 95a8a92e0dde17e27936a7de2813e7d38fed92c1 M	fdn.restassured.com/target/surefire-reports/Suite/Test_post.html
+:100644 100644 b78cdf7fdd964d534faa7190350d943392479aa0 854ef53942d2a6d04a6ed9d17531e30715fe1c4b M	fdn.restassured.com/target/surefire-reports/Suite/Test_post.xml
+:100644 100644 c4189361927080412cd34dca8f9f3e1aa53c683c 253db13362f024548f97af1d66504e9f2dda7e70 M	fdn.restassured.com/target/surefire-reports/Suite/Test_talk_get.html
+:100644 100644 07807a581c6dda82243b241f14a57d849159b2dc 61938be63a150f5bf7c94a111cae3a3ce16a3e91 M	fdn.restassured.com/target/surefire-reports/Suite/Test_talk_get.xml
+:100644 100644 c0e3781b1aa081312dde67d9c9ae696a394fdd8d b7248c0ef120fd5263d786da09324cafa1c4a0b1 M	fdn.restassured.com/target/surefire-reports/TEST-TestSuite.xml
+:100644 100644 3ff27a6a399ce7336b00a5c92373ff7b259b483c cf1d3b8c0758f280f6498fc60a37ca7977091ee1 M	fdn.restassured.com/target/surefire-reports/TestSuite.txt
+:100644 100644 cd4082cde6a10c00096031f43021d6ed0870688d 50f1a04229cb2c45c3ddb31fa9de62c12aee8c85 M	fdn.restassured.com/target/surefire-reports/emailable-report.html
+:100644 100644 39da95115ac73bb2328a5cdd1336f478b869c91a 2298548923d93da023caa32f7511b2f94e01405c M	fdn.restassured.com/target/surefire-reports/index.html
+:100644 100644 a8b1f20134783268521ff6cdc3be09d4a7019ecd 8e37b1a9c052b4d8acb9c0a8565e020b7ac3c7cf M	fdn.restassured.com/target/surefire-reports/junitreports/TEST-test.tc_post.post_login_apps.xml
+:100644 100644 0c27597df70d2a8b32527b5daad47a8e1aa8e3c9 400204f28e817f7ca25a60de4a2127fb28929226 M	fdn.restassured.com/target/surefire-reports/junitreports/TEST-test.tc_talk_get.get_popularGroup.xml
+:100644 100644 ef0436474cd560e6abc2978c061d4a53cd7cd3cd db6c31e396a2f70e1337a6619395f12f94191b87 M	fdn.restassured.com/target/surefire-reports/old/Suite/Test_post.properties
+:100644 100644 ef0436474cd560e6abc2978c061d4a53cd7cd3cd 4e22b0bd2408ecf4db1347e493b17004e1b70771 M	fdn.restassured.com/target/surefire-reports/old/Suite/Test_talk_get.properties
+:100644 100644 fb269abbde53e3b156bb8ced5d3bbd26e352f6aa 784c3d854037f0350c74c6b2729d9301504e0d1e M	fdn.restassured.com/target/surefire-reports/old/Suite/classes.html
+:100644 100644 1c4c875dac8667732ef054d65907272a54601083 6001c8467646f59acbfdd4fbf5c5409c65623f7f M	fdn.restassured.com/target/surefire-reports/old/Suite/methods-alphabetical.html
+:100644 100644 1d5ff1a2568964265b58d7f4e8be2b87ee7aa37f 6001c8467646f59acbfdd4fbf5c5409c65623f7f M	fdn.restassured.com/target/surefire-reports/old/Suite/methods.html
+:100644 100644 9b694fda710df5efa658d74d4ea6e1177d1c827f 0f08200ee9a02791f98ea5bb91cd04ba47993aee M	fdn.restassured.com/target/surefire-reports/old/Suite/testng.xml.html
+:100644 100644 2b377f1eba6051c463f19fad2a51c810c9d43dbb d9fa6dd7bb015f71c9877a57dd71c1a2e78d2aa7 M	fdn.restassured.com/target/surefire-reports/old/Suite/toc.html
+:100644 100644 a93215becf71c45990d0ab88eddcd249f0a65923 dec16a9401173d323de7428ca862462e9cd6d178 M	fdn.restassured.com/target/surefire-reports/old/index.html
+:100644 100644 cdcf68ca726d88b9a2226cd31793ef1f232ad5d5 97113e0f2f078a573e8a3ab89c2a81b7876828a2 M	fdn.restassured.com/target/surefire-reports/testng-results.xml
+:100644 000000 236c1afb7a94718ffdb6cca7958cdb3236607153 0000000000000000000000000000000000000000 D	fdn.restassured.com/target/test-classes/listener/ExtentReporterNG.class
+:100644 000000 45b9ca6a1481f59b0cda1447094fef324931c762 0000000000000000000000000000000000000000 D	fdn.restassured.com/target/test-classes/listener/listeners.class
+:100644 100644 48a1aaa2e6f0c74d5352d391993b9fb04b4341c8 b28be575f0780ee9cbdbb2fb6a6a1e50ccde2d11 M	fdn.restassured.com/target/test-classes/test/tc_get/get_feedreport.class
+:100644 100644 7e846440f3348bb4397df7935abca5c11702f17d 110a5366409e3e7bbe8fb3376d5c8df16f32313e M	fdn.restassured.com/target/test-classes/test/tc_get/get_newestreview.class
+:100644 100644 4dcd77329e3af2166f09763633ee7e73c27deec8 cc0686d2256949836cd640b0eb78dc5d9c65a016 M	fdn.restassured.com/target/test-classes/test/tc_post/post_login_apps.class
+:100644 100644 e57a0c41552d00ddcdf82d113a4631ac645754b1 57ffb3c9909f793d343bf4c16acb3233d6c8e1ad M	fdn.restassured.com/testng.xml

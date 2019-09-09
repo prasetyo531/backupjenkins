@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-01 10:03:42.370 UTC</timestamp>
+  <md5sum>ef6c99bc8e55c53108448da5540fdacc</md5sum>
+  <fileName>org.apache.clerezza.ext:org.json.simple-0.4.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>687-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>687-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nbelonogov
+Build-Jdk: 1.8.0_131
+Extension-Name: telegram-notifications
+Specification-Title: This plugin allows you to send messages from Jenk
+ ins jobs to Telegram chats
+Implementation-Title: telegram-notifications
+Implementation-Version: 1.3.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: telegram-notifications
+Long-Name: Telegram Bot Plugin
+Url: https://wiki.jenkins.io/display/JENKINS/Telegram+Notification+Plu
+ gin
+Plugin-Version: 1.3.0
+Hudson-Version: 2.7
+Jenkins-Version: 2.7
+Plugin-Dependencies: job-dsl:1.68;resolution:=optional,structs:1.13,to
+ ken-macro:2.3
+Plugin-Developers: 
+

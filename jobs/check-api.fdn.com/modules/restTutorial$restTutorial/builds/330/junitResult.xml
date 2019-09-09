@@ -1,0 +1,588 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.28">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/check-api.fdn.com/fdn.restassured.com/target/surefire-reports/TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>18.094</duration>
+      <time>18.094</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>1.577</duration>
+          <className>test.tc_get.get_beautyroundup</className>
+          <testName>getbeautyroundup</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 
+1 expectation failed.
+Expected header &quot;Server&quot; was not &quot;nginx/1.10.3 (Ubuntu)&quot;, was &quot;istio-envoy&quot;. Headers are:
+content-encoding=gzip
+content-type=application/json; charset=utf-8
+vary=Accept-Encoding
+date=Wed, 31 Jul 2019 10:03:15 GMT
+x-envoy-upstream-service-time=19
+server=istio-envoy
+transfer-encoding=chunked
+
+	at test.tc_get.get_beautyroundup.getbeautyroundup(get_beautyroundup.java:35)
+</errorStackTrace>
+          <errorDetails>1 expectation failed.
+Expected header &quot;Server&quot; was not &quot;nginx/1.10.3 (Ubuntu)&quot;, was &quot;istio-envoy&quot;. Headers are:
+content-encoding=gzip
+content-type=application/json; charset=utf-8
+vary=Accept-Encoding
+date=Wed, 31 Jul 2019 10:03:15 GMT
+x-envoy-upstream-service-time=19
+server=istio-envoy
+transfer-encoding=chunked
+</errorDetails>
+          <stdout>...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+</stdout>
+          <stderr>ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property &apos;log4j2.debug&apos; to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+</stderr>
+          <failedSince>329</failedSince>
+        </case>
+        <case>
+          <duration>0.863</duration>
+          <className>test.tc_get.get_blogarticle</className>
+          <testName>getblogarticle</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.093</duration>
+          <className>test.tc_get.get_commentpost_web</className>
+          <testName>getcommentpost_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.14</duration>
+          <className>test.tc_get.get_commentreview_web</className>
+          <testName>getcommentpost_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.736</duration>
+          <className>test.tc_get.get_feed_apps</className>
+          <testName>getfeed_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.726</duration>
+          <className>test.tc_get.get_feed_web</className>
+          <testName>getfeed_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.102</duration>
+          <className>test.tc_get.get_feeddetail_web</className>
+          <testName>getfeeddetail_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.677</duration>
+          <className>test.tc_get.get_feedreport</className>
+          <testName>getfeed_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.153</duration>
+          <className>test.tc_get.get_follower_web</className>
+          <testName>getfollower_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.104</duration>
+          <className>test.tc_get.get_following_web</className>
+          <testName>getfollowing_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.143</duration>
+          <className>test.tc_get.get_newestreview</className>
+          <testName>getnewestreview_web</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected not same [null] but found [null]
+	at test.tc_get.get_newestreview.getnewestreview_web(get_newestreview.java:45)
+</errorStackTrace>
+          <errorDetails>expected not same [null] but found [null]</errorDetails>
+          <stdout>{
+    &quot;success&quot;: false,
+    &quot;data&quot;: [
+        
+    ],
+    &quot;paging&quot;: {
+        &quot;total&quot;: 0,
+        &quot;page&quot;: 2,
+        &quot;limit&quot;: 10
+    }
+}
+null
+</stdout>
+          <failedSince>329</failedSince>
+        </case>
+        <case>
+          <duration>0.085</duration>
+          <className>test.tc_get.get_notifcount</className>
+          <testName>getnotifpage_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.478</duration>
+          <className>test.tc_get.get_notifpage</className>
+          <testName>getnotifpage_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.122</duration>
+          <className>test.tc_get.get_postdetail</className>
+          <testName>getnotifpage_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.124</duration>
+          <className>test.tc_get.get_productdetail_web</className>
+          <testName>getproductdetail_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.349</duration>
+          <className>test.tc_get.get_productlist_web</className>
+          <testName>getproductlist_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.155</duration>
+          <className>test.tc_get.get_productmatches_apps</className>
+          <testName>getproductmatches_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.195</duration>
+          <className>test.tc_get.get_products_web</className>
+          <testName>getproducts_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.102</duration>
+          <className>test.tc_get.get_productsimilar</className>
+          <testName>getproductsimilar_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.096</duration>
+          <className>test.tc_get.get_productssimilar_web</className>
+          <testName>getproductssimilar_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.08</duration>
+          <className>test.tc_get.get_reviewdetail_web</className>
+          <testName>getreviewdetail_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.166</duration>
+          <className>test.tc_get.get_reviewlist_web</className>
+          <testName>getreview_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.365</duration>
+          <className>test.tc_get.get_suggestedEnthusiastUserid</className>
+          <testName>get_suggestedEnthusiastUserid</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.788</duration>
+          <className>test.tc_get.get_userbrand</className>
+          <testName>getuserbrand</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.tc_get.get_userfeed</className>
+          <testName>getuserfeed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.067</duration>
+          <className>test.tc_get.get_userpredifined</className>
+          <testName>getuserpredefined_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.026</duration>
+          <className>test.tc_get.get_productsearch_apps</className>
+          <testName>getproductsearch_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.169</duration>
+          <className>test.tc_get.get_productsearch_web</className>
+          <testName>getproductsearch_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.236</duration>
+          <className>test.tc_get.get_editorchoice_web</className>
+          <testName>geteditorchoice_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.101</duration>
+          <className>test.tc_get.get_userProfile_apps</className>
+          <testName>run_post_login</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.126</duration>
+          <className>test.tc_get.get_userProfile_apps</className>
+          <testName>getuserprofile_apps</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected not same [null] but found [null]
+	at test.tc_get.get_userProfile_apps.getuserprofile_apps(get_userProfile_apps.java:75)
+</errorStackTrace>
+          <errorDetails>expected not same [null] but found [null]</errorDetails>
+          <stdout>Request method:	GET
+Request URI:	https://api.femaledaily.com/app/v1/user/profile/364623
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		version=1.5
+				device=1
+				key=client01-pb3TVYisCGurD08ks3YW
+				Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoiMS41IiwiZGV2aWNlIjoiMyIsImtleSI6ImNsaWVudDAyLVd2Qk5NTnVWQm9lTEF2UmRja3NyIiwicG9zdCI6eyJ1c2VyX2lkIjo0OTA1NSwidXNlcm5hbWUiOiJwdXR3aWQiLCJmdWxsbmFtZSI6IlV0d2lkIiwiZW1haWwiOiJmYXpsdXIuZi5yYWhtYW5AZ21haWwuY29tIn0sImlhdCI6MTU2NjEyMzcxNDI5OH0.vuX8FZyIOS5iE4guI7pWNu5dT5CoGm2BFkKzo5cJOzY
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+{
+    &quot;meta&quot;: {
+        &quot;code&quot;: 400,
+        &quot;msg&quot;: &quot;An error occured while load profile&quot;
+    },
+    &quot;error&quot;: &quot;&quot;,
+    &quot;data&quot;: {
+        
+    }
+}
+null
+</stdout>
+          <failedSince>330</failedSince>
+        </case>
+        <case>
+          <duration>0.122</duration>
+          <className>test.tc_post.post_addproduct</className>
+          <testName>run_add_product</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.073</duration>
+          <className>test.tc_post.post_addreview_web</className>
+          <testName>postaddreview_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.062</duration>
+          <className>test.tc_post.post_forgetpassword_apps</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.058</duration>
+          <className>test.tc_post.post_forgetpassword_web</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.075</duration>
+          <className>test.tc_post.post_likepost_web</className>
+          <testName>postlikepost_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.079</duration>
+          <className>test.tc_post.post_likereview_apps</className>
+          <testName>postlikereview_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.085</duration>
+          <className>test.tc_post.post_likereview_web</className>
+          <testName>postlikereview_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.086</duration>
+          <className>test.tc_post.post_login_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.07</duration>
+          <className>test.tc_post.post_login_web</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.065</duration>
+          <className>test.tc_post.post_usercommentpost_web</className>
+          <testName>postusercommentpost_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.064</duration>
+          <className>test.tc_post.post_userpost_apps</className>
+          <testName>postuserpost_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.063</duration>
+          <className>test.tc_post.post_userposttagging_apps</className>
+          <testName>postuserposttagging_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.145</duration>
+          <className>test.tc_post.post_discover_apps</className>
+          <testName>postdiscover_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.084</duration>
+          <className>test.tc_post.post_followsuggested_web</className>
+          <testName>run_post_login</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.066</duration>
+          <className>test.tc_post.post_followuser_apps</className>
+          <testName>postfollowuser_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.067</duration>
+          <className>test.tc_post.post_followuser_web</className>
+          <testName>postfollowuser_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.059</duration>
+          <className>test.tc_post.post_followusers_apps</className>
+          <testName>postfollowusers_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.062</duration>
+          <className>test.tc_post.post_likepost_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.065</duration>
+          <className>test.tc_post.post_register_apps</className>
+          <testName>run_post_register</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.067</duration>
+          <className>test.tc_post.post_register_web</className>
+          <testName>run_post_register</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.068</duration>
+          <className>test.tc_post.post_usercommentreview_web</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.061</duration>
+          <className>test.tc_post.post_followsuggested_web</className>
+          <testName>postfollowsuggested_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.078</duration>
+          <className>test.tc_post.post_likepost_apps</className>
+          <testName>postlikepost_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.13</duration>
+          <className>test.tc_post.post_register_apps</className>
+          <testName>getuserprofile_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.216</duration>
+          <className>test.tc_post.post_register_web</className>
+          <testName>getuserprofile_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.072</duration>
+          <className>test.tc_post.post_usercommentreview_web</className>
+          <testName>postusercommentreview_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.343</duration>
+          <className>test.tc_put.put_profileinfo_web</className>
+          <testName>putprofileinfo_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.098</duration>
+          <className>test.tc_put.put_profileinfo_apps</className>
+          <testName>putprofileinfo_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.097</duration>
+          <className>test.tc_put.put_profilecomplete_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.076</duration>
+          <className>test.tc_put.put_profilecomplete_web</className>
+          <testName>runpostlogin_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.085</duration>
+          <className>test.tc_put.put_userpost_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.089</duration>
+          <className>test.tc_put.put_userreview_apps</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.069</duration>
+          <className>test.tc_put.put_userreview_web</className>
+          <testName>runpostlogin_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.068</duration>
+          <className>test.tc_put.put_profilecomplete_apps</className>
+          <testName>putprofilecomplete_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.181</duration>
+          <className>test.tc_put.put_profilecomplete_web</className>
+          <testName>putprofilecomplete_web</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.063</duration>
+          <className>test.tc_put.put_userpost_apps</className>
+          <testName>putuserpost_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.096</duration>
+          <className>test.tc_put.put_userreview_apps</className>
+          <testName>putuserreview_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.115</duration>
+          <className>test.tc_put.put_userreview_web</className>
+          <testName>putuserreview_apps</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.074</duration>
+          <className>test.tc_talk_get.get_popularGroup</className>
+          <testName>getpopularGroup</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>18.094</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

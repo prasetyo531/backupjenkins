@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-04 16:03:38.649 UTC</timestamp>
+  <md5sum>a1fb840c3963ed43c78291b5e61d55ac</md5sum>
+  <fileName>org.apache.commons:commons-text-1.6.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>723-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>723-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

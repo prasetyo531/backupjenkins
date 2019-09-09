@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-16 13:46:22.640 UTC</timestamp>
+  <md5sum>e2b52a803a5cc0cbfdf6a603e1ffcf17</md5sum>
+  <fileName>io.rest-assured:rest-assured-3.2.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>508-778</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>508-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

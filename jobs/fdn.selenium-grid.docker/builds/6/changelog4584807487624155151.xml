@@ -1,0 +1,17 @@
+commit 775b4540744b487791e8022d15549e07476a780e
+tree f39994fbfa37588a07ba7cf8d6ad6dfa6795dbba
+parent 683b3b7caf06175d93f794d63814a8db8b3057a0
+author FDN-Prasetyo <prasetyo531@gmail.com> 2019-09-05 19:14:14 +0700
+committer FDN-Prasetyo <prasetyo531@gmail.com> 2019-09-05 19:14:14 +0700
+
+    add healthcheck sh
+
+
+
+:100644 100644 9b6a9ef4049c4143b06e0e7b908cf9d56bdb16c3 c9afb5bd5e0cdc09e4eb557d1a27545acab0b34a M	Automation-Master/src_controller/.DS_Store
+:100644 100644 a221a7c459c85c31c0dd53ae9c5aa68824b9ad24 641c49e496f2a50358e6ef54d980c4c6db48437b M	Automation-Master/src_controller/resources/Controller.java
+:100644 100644 8a7e35430583e7343ac7ec307951d5ae3c301fc7 44495e9e43f38911e4eeb4c9d0def6a2613e8feb M	Automation-Master/src_test/tc_addProduct/addProductBeforeLogin.java
+:100644 100644 b3e0889537f8d3ae1f753ea3438fc9f24125b7de 817addeafe9493b58c68b13de78e8e362bb9c9ac M	Automation-Master/target/classes/resources/Controller.class
+:100644 100644 63140814087eb0425e8f528ca53d3402490be8d9 1d427edecf6c2dbcc68e24f79809200d8638c246 M	Automation-Master/target/healthcheck.sh
+:100644 100644 b3e0889537f8d3ae1f753ea3438fc9f24125b7de 817addeafe9493b58c68b13de78e8e362bb9c9ac M	Automation-Master/target/test-classes/resources/Controller.class
+:100644 100644 db10e4a423c551fc671390bfd4e1b382c4b212e9 ea473ad2f9f9d6ed4c7916f7657888f5649c4485 M	Automation-Master/target/test-classes/tc_addProduct/addProductBeforeLogin.class

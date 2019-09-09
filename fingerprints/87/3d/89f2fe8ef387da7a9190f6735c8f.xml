@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 09:19:46.238 UTC</timestamp>
+  <md5sum>873d89f2fe8ef387da7a9190f6735c8f</md5sum>
+  <fileName>org.codehaus.groovy:groovy-2.4.12.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>2-351,353-381,383-409,411-436,439-507</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>2-351,353-381,383-409,411-436,439-507</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

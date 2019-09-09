@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-02 08:19:37.799 UTC</timestamp>
+  <md5sum>37170b5914938bd2d743f283cc52880f</md5sum>
+  <fileName>Credential id=1e0d62de-e51d-4f87-9078-e77df7f7629a name=prasetyo@femaledaily.com/******</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>2-778</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

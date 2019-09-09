@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-08-16 13:46:22.663 UTC</timestamp>
+  <md5sum>a275057968bdf1e7dcc90a7e7fc8d5f5</md5sum>
+  <fileName>com.approvaltests:approvaltests-util-3.2.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>check-api.fdn.com/restTutorial:restTutorial</string>
+      <ranges>508-546</ranges>
+    </entry>
+    <entry>
+      <string>check-api.fdn.com</string>
+      <ranges>508-546</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
